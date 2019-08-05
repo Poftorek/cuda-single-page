@@ -1,13 +1,9 @@
 # How to start
 ## Do it only once
 1. Download Live Server extension in your VSC
-2. `mkdir cuda-project`
-3. `cd cuda-project`
-4. `git init`
-5. `git remote add origin https://github.com/Poftorek/cuda-single-page.git`
-6. `git pull origin master`
-7. `git checkout -b marihunaen` // marihunaen is your name's of your branch
-8. `npm install`
+2. `git clone https://github.com/Poftorek/cuda-single-page.git`
+3. `git checkout -b marihunaen` // marihunaen is your name's of your branch
+4. `npm install`
 
 and..
 
