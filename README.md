@@ -16,4 +16,5 @@ and..
 2. Click PPM on `index.html` and choose `Open Live Server` // Live changes, that the link is IP:PORT/dist instead of IP:PORT/src
 3. Write HTML in /src/`index.html`
 4. To write css/scss create a /src/`_nameOfComponent.scss` and there you can write your code; remember to import your stylesheet in `style.scss`: `@import 'nameOfComponent';`
-5. After your work make: `git add .`, `git commit -m "What did you do?"`, `git push origin marihunaen`
+5. Assets (images) drop to `/assets` folder
+6. After your work make: `git add .`, `git commit -m "What did you do?"`, `git push origin marihunaen`
