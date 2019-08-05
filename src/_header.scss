@@ -1,0 +1,50 @@
+.header {
+  padding: 50px 170px 150px 170px;
+  min-height: 600px;
+  background-color: #87509c;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+  }
+
+  .nav {
+    &__list {
+      display: flex;
+      list-style: none;
+    }
+
+    &__item {
+      width: 77px;
+      height: 32px;
+      border-radius: 4px;
+      text-transform: uppercase;
+      @include flex;
+      font-size: 14px;
+      font-weight: 400;
+      cursor: pointer;
+
+      &--active {
+        background-color: #643a79;
+      }
+
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+  }
+
+  &__welcome {
+    flex-basis: 100%;
+    font-size: 42px;
+    line-height: 49px;
+    color: #f7f3ea;
+    font-weight: 700;
+    text-align: center;
+    margin: 100px 0 60px 0;
+  }
+}
