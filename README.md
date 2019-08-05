@@ -1,3 +1,2 @@
-#1
-npm install
-alt+l alt+o
+#cuda-single-page
+Autor: Poftorek & Marihunaen
