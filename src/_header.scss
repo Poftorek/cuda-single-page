@@ -39,12 +39,11 @@
   }
 
   &__welcome {
-    flex-basis: 100%;
     font-size: 42px;
-    line-height: 49px;
     color: #f7f3ea;
     font-weight: 700;
     text-align: center;
+    word-wrap: break-word;
     margin: 100px 0 60px 0;
   }
 }
