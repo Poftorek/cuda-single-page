@@ -2,7 +2,7 @@
 ## Do it only once
 1. Download Live Server extension in your VSC
 2. `git clone https://github.com/Poftorek/cuda-single-page.git`
-3. `git checkout -b marihunaen` // marihunaen is your name's of your branch
+3. `cd cuda-single-page`, `git checkout -b marihunaen` // marihunaen is your name's of your branch
 4. `npm install`
 
 and..
