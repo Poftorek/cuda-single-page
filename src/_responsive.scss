@@ -1,7 +1,13 @@
 @media (max-width: 900px) {
-  .header {
-    padding: 50px 50px 100px 50px;
 
+
+  .services,
+  .header,
+  f .team {
+    padding: 50px 50px 100px 50px;
+  }
+
+  .header {
     &__logo {
       flex-basis: 100%;
       display: flex;
@@ -21,18 +27,16 @@
     }
   }
 
-  .services {
-    padding: 50px 50px 100px 50px;
-  }
 
   .cards {
     flex-wrap: wrap;
-  }
-  .card {
-    justify-content: center;
+
+    @media (max-width: 700px) {
+      justify-content: center;
+    }
   }
 
-  .team {
-    padding: 50px 50px 100px 50px;
+  .card {
+    justify-content: center;
   }
 }

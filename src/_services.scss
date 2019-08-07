@@ -1,5 +1,4 @@
 .services {
-  flex-basis: 100%;
   padding-top: 120px;
   padding-right: 150px;
   padding-left: 150px;
@@ -23,33 +22,6 @@
 
   &__card .card__description {
     color: #fff;
-  }
-}
-
-.title {
-  display: flex;
-  justify-content: center;
-  letter-spacing: 4px;
-  line-height: 40px;
-  font-weight: 700;
-  text-align: center;
-  text-transform: uppercase;
-  position: relative;
-
-  &::after {
-    content: '';
-    position: absolute;
-    bottom: -30px;
-    width: 87px;
-    height: 4px;
-    background-color: rgba(0, 0, 0, .15);
-  }
-
-  &__paragraph {
-    margin: 65px auto auto;
-    font-size: 18px;
-    line-height: 26px;
-    text-align: center;
   }
 }
 

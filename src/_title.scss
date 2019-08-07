@@ -1,0 +1,27 @@
+.title {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 4px;
+  line-height: 40px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  word-wrap: break-word;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    width: 87px;
+    height: 4px;
+    background-color: rgba(0, 0, 0, .15);
+  }
+
+  &__paragraph {
+    margin: 65px auto auto;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+  }
+}
