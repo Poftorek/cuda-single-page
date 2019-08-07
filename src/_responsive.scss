@@ -1,0 +1,38 @@
+@media (max-width: 900px) {
+  .header {
+    padding: 50px 50px 100px 50px;
+
+    &__logo {
+      flex-basis: 100%;
+      display: flex;
+      justify-content: center;
+
+      img {
+        width: 50%;
+      }
+    }
+
+    &__top {
+      @include flex;
+    }
+
+    .nav {
+      margin-top: 30px;
+    }
+  }
+
+  .services {
+    padding: 50px 50px 100px 50px;
+  }
+
+  .cards {
+    flex-wrap: wrap;
+  }
+  .card {
+    justify-content: center;
+  }
+
+  .team {
+    padding: 50px 50px 100px 50px;
+  }
+}
