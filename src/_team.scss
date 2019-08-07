@@ -50,6 +50,9 @@
 
 .social-icons {
   display: flex;
+  &__icon {
+    padding: 0 5px;
+  }
 
   &__icon>img {
     max-width: 32px;
