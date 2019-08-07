@@ -5,6 +5,7 @@
   background-color: #17c2a4;
 
   &__paragraph {
+    max-width: 590px;
     color: #ffffff;
   }
 
@@ -26,7 +27,7 @@
   display: flex;
   justify-content: center;
   letter-spacing: 4px;
-  line-height: 30px;
+  line-height: 40px;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
@@ -43,7 +44,6 @@
 
   &__paragraph {
     margin: 65px auto auto;
-    max-width: 590px;
     font-size: 18px;
     line-height: 26px;
     text-align: center;

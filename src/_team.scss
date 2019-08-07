@@ -1,0 +1,58 @@
+.team {
+  flex-basis: 100%;
+  padding: 120px 130px 150px 120px;
+  min-height: 920px;
+  background-color: #e7f1f8;
+
+  &__title {
+    line-height: 41px;
+    font-size: 41px;
+    color: #3c4761;
+  }
+
+  &__paragraph {
+    color: #3c4761;
+  }
+
+  &__cards {
+    margin-top: 80px;
+  }
+
+}
+
+.card {
+  &__name {
+    margin-top: 40px;
+    font-size: 24px;
+    line-height: 18px;
+    color: #27283d;
+    font-weight: 700;
+  }
+
+  &__status {
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 18px;
+    color: #30bae7;
+    font-weight: 400;
+  }
+
+  &__description {
+    margin-top: 20px;
+  }
+
+  &__social-icons {
+    margin-top: 20px;
+  }
+}
+
+.social-icons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+
+  &__icon>img {
+    max-width: 32px;
+    max-height: 32px;
+  }
+}
