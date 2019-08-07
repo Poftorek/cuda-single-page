@@ -2,6 +2,7 @@
   padding-top: 50px;
   padding-right: 150px;
   padding-left: 150px;
+  padding-bottom: 50px;
   min-height: 600px;
   background-color: #87509c;
 
@@ -16,6 +17,8 @@
   .nav {
     &__list {
       display: flex;
+      padding: 0;
+      flex-wrap: wrap;
       list-style: none;
     }
 

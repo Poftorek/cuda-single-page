@@ -49,9 +49,7 @@
 }
 
 .social-icons {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
+  display: flex;
 
   &__icon>img {
     max-width: 32px;

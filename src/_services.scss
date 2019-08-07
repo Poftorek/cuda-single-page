@@ -3,6 +3,7 @@
   padding-top: 120px;
   padding-right: 150px;
   padding-left: 150px;
+  padding-bottom: 50px;
   min-height: 740px;
   background-color: #17c2a4;
 
@@ -59,9 +60,11 @@
 }
 
 .card {
+  margin-top:20px;
   max-width: 204px;
   display: flex;
   flex-direction: column;
+  margin-left: 20px;
   align-items: center;
 
   img {
@@ -75,6 +78,7 @@
     line-height: 18px;
     color: #ffffff;
     text-transform: uppercase;
+    white-space: nowrap;
   }
 
   &__description {
