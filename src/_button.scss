@@ -12,7 +12,37 @@
   cursor: pointer;
   border-bottom: 4px solid rgba(0, 0, 0, .15);
 
-  &__cta {
+  &--cta {
     background-color: #eb7d4b;
+  }
+
+  &--blue {
+    background-color: #17c2a4;
+  }
+}
+
+.buttons-group {
+  display: grid;
+  width: 376px;
+  grid-template-columns: repeat(4, 1fr);
+  margin: auto;
+  margin-top: 50px;
+  cursor: pointer;
+  &__btn {
+    width: 84px;
+    height: 38px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 20px;
+    color: #393939;
+    font-weight: 400;
+    @include flex;
+
+    background-color: rgba(0, 0, 0, 0.0784313725490196);
+
+    &--active {
+      background-color: #fff;
+    }
   }
 }
