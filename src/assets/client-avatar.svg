@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97 97" width="97" height="97">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #787878 } 
+	</style>
+	<g id="Testimonials">
+		<g id="1">
+			<g id="Mugshot">
+				<path id="Base" class="shp0" d="M49 1C75.51 1 97 22.49 97 49C97 75.51 75.51 97 49 97C22.49 97 1 75.51 1 49C1 22.49 22.49 1 49 1Z" />
+			</g>
+		</g>
+	</g>
+</svg>
