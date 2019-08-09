@@ -13,3 +13,4 @@ const handleActiveButtons = (name, activeClass) => {
 }
 handleActiveButtons('.nav__item', 'nav__item--active');
 handleActiveButtons('.buttons-group__btn', 'buttons-group__btn--active');
+document.querySelector('.button.button--blue').addEventListener('click', e=>e.preventDefault());
