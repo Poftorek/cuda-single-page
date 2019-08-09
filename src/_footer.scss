@@ -1,0 +1,28 @@
+.footer {
+  &__social-medias {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #344b8e;
+    min-height: 112px;
+
+    @media (min-width:1200px) {
+      padding: 0 250px;
+    }
+  }
+  &__social-media {
+    padding: 20px;
+    a {
+      font-size: 24px;
+      line-height: 30px;
+      color: #ffffff;
+      font-weight: 600;
+      text-decoration: none;
+
+      &:hover {
+        color: #30bae7
+      }
+    }
+  }
+}

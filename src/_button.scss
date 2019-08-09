@@ -16,8 +16,12 @@
     background-color: #eb7d4b;
   }
 
-  &--blue {
+  &--sealblue {
     background-color: #17c2a4;
+  }
+
+  &--blue {
+    background-color: #30bae7;
   }
 }
 
@@ -28,6 +32,7 @@
   margin: auto;
   margin-top: 50px;
   cursor: pointer;
+
   &__btn {
     width: 84px;
     height: 38px;
