@@ -2,11 +2,24 @@
   .about__card {
     flex-basis: 100%;
     justify-content: center;
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .about__card-image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about__card-text {
+    margin-left: 0;
   }
 
   .services,
   .header,
   .team,
+  .skills,
   .portfolio,
   .about,
   .contact {
@@ -49,11 +62,21 @@
   .portfolio__cards img {
     max-width: 100%;
   }
+
   .footer__social-medias {
     padding: 0;
   }
+
   .contact__form {
     padding: 0;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  .contact {
+    padding: 25px;
   }
 }
 
